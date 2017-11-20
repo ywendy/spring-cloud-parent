@@ -1,0 +1,13 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: bigger
+  cloud:
+    config:
+      profile: dev #profile
+      label: master #git 分支
+      uri: http://localhost:8888/ #配置中心地址
+
+
+
