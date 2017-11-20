@@ -8,5 +8,5 @@ target
 .settings
 .project
 .git
-.iml
+*.iml
 .idea
