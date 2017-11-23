@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8001/eureka/
+      defaultZone: http://192.168.22.130:8001/eureka/
 spring:
   application:
     name: spring-sayHello-service
